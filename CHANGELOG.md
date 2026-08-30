@@ -46,6 +46,10 @@ keys remain all-access.
 - Improve systemd service file hardening [#3341](https://github.com/juanfont/headscale/pull/3341)
 - Headscale now requires Go 1.27 to build
 
+### Fixes
+
+- `headscale users rename` now sends the ID of the resolved user instead of the raw flag value, so renaming by name works again
+
 ## 0.29.3 (2026-07-29)
 
 **Minimum supported Tailscale client version: v1.80.0**
